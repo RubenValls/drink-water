@@ -3,6 +3,7 @@
 $background: #3594E4;
 $border: #154FC6;
 $textColor: white;
+$fillColor: #6AB3F8;
 
 body{
     background-color: $background;
@@ -70,6 +71,17 @@ body{
             color: $border;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+            transition: all 0.25s;
+        }
+
+        .filled{
+            background-color: $fillColor;
+            color: $textColor;
+            transition: all 0.25s;
+        }
+
+        .glass:hover{
+            cursor: pointer;
         }
     }
 }

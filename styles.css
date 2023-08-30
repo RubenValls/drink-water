@@ -60,6 +60,15 @@ body .glasses-container .glass {
   color: #154FC6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: all 0.25s;
+}
+body .glasses-container .filled {
+  background-color: #6AB3F8;
+  color: white;
+  transition: all 0.25s;
+}
+body .glasses-container .glass:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
