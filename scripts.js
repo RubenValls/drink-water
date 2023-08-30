@@ -1,15 +1,12 @@
 const glasses = document.querySelectorAll(".glass");
-let glassesOrder = 0;
 
-glasses.forEach((glass) => {
-    let order = glassesOrder;
+glasses.forEach((glass, index) => {
     glass.addEventListener("click", () => {
-        let orderToFollow = order
+        let orderToFollow = index
         glasses.forEach((glass) => glass.classList.remove("filled"));
         while(orderToFollow >= 0){
             glasses[orderToFollow].classList.add("filled");
             orderToFollow--
         }
     })
-    glassesOrder++;
 })
