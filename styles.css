@@ -21,7 +21,7 @@ body .main-cup {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px auto 20px auto;
+  margin: 30px auto 30px auto;
   width: 150px;
   max-width: 150px;
   height: 350px;
@@ -36,6 +36,30 @@ body .main-cup h2 {
 }
 body .main-cup p {
   font-size: 0.9rem;
+}
+body .glasses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto auto auto;
+  flex-wrap: wrap;
+  width: 300px;
+  max-width: 300px;
+  height: auto;
+}
+body .glasses-container .glass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 100px;
+  width: 50px;
+  background-color: white;
+  border: 3px solid #154FC6;
+  color: #154FC6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
