@@ -47,6 +47,7 @@ body{
             align-items: center;
             margin: auto;
             height: 100%;
+            transition: all 0.5s;
             
             h2{
                 margin: 0;
@@ -69,6 +70,7 @@ body{
             color: $border;
             font-size: 1.25rem;
             visibility: hidden;
+            transition: all 0.5s;
         }
     }
 

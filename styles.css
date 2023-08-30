@@ -39,6 +39,7 @@ body .main-cup .remained-container {
   align-items: center;
   margin: auto;
   height: 100%;
+  transition: all 0.5s;
 }
 body .main-cup .remained-container h2 {
   margin: 0;
@@ -58,6 +59,7 @@ body .main-cup .percentage-container {
   color: #154FC6;
   font-size: 1.25rem;
   visibility: hidden;
+  transition: all 0.5s;
 }
 body .glasses-container {
   display: flex;
