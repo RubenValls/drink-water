@@ -16,5 +16,26 @@ body h1 {
 body p {
   margin: 0;
 }
+body .main-cup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 20px auto;
+  width: 150px;
+  max-width: 150px;
+  height: 350px;
+  background-color: white;
+  border: 5px solid #154FC6;
+  color: #154FC6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+body .main-cup h2 {
+  margin: 0;
+}
+body .main-cup p {
+  font-size: 0.9rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
