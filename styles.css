@@ -18,6 +18,7 @@ body p {
 }
 body .main-cup {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -31,11 +32,32 @@ body .main-cup {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-body .main-cup h2 {
+body .main-cup .remained-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+body .main-cup .remained-container h2 {
   margin: 0;
 }
-body .main-cup p {
+body .main-cup .remained-container p {
   font-size: 0.9rem;
+}
+body .main-cup .percentage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 0%;
+  width: 100%;
+  background-color: #6AB3F8;
+  color: #154FC6;
+  font-size: 1.25rem;
+  visibility: hidden;
 }
 body .glasses-container {
   display: flex;

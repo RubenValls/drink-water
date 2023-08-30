@@ -26,6 +26,7 @@ body{
 
     .main-cup{
         display: flex;
+        overflow: hidden;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -39,12 +40,35 @@ body{
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
 
-        h2{
-            margin: 0;
+        .remained-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: 100%;
+            
+            h2{
+                margin: 0;
+            }
+
+            p{
+                font-size: 0.9rem;
+            }
         }
 
-        p{
-            font-size: 0.9rem;
+        .percentage-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: 0%;
+            width: 100%;
+            background-color: $fillColor;
+            color: $border;
+            font-size: 1.25rem;
+            visibility: hidden;
         }
     }
 
